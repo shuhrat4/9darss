@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Users</title>
+  </head>
+  <body class="bg-gray-900 p-8 text-gray-100">
+    <div class="grid grid-cols-3 gap-6">
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-[600px] overflow-y-scroll scrollbar">
+            <h2 class="text-center text-2xl font-semibold mb-4 text-white">Users List</h2>
+            <div id="users-list" class="space-y-4"></div>
+        </div>
+
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-[600px] overflow-y-scroll scrollbar">
+            <h2 class="text-center text-2xl font-semibold mb-4 text-white">Posts List</h2>
+            <div id="posts-list" class="space-y-4"></div>
+        </div>
+
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg h-[600px] overflow-y-scroll scrollbar">
+            <h2 class="text-center text-2xl font-semibold text-white">Comments List</h2>
+            <div id="comments-list" class="space-y-4"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
